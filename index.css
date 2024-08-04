@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #F4F4F4;
+}
+
+#title {
+    margin-top: 0;
+    padding-top: 30px;
+    color: white;
+}
+
+#input-field {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 80px;
+    font-size: 58px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#convert-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#top {
+    background-image: linear-gradient(90deg, #659999, #f4791f);
+    padding-bottom: 30px;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.row {
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+#author {
+    margin: 50px 0;
+}
+
+#author a {
+    background-image: linear-gradient(90deg, #659999, #f4791f);
+    color: white;
+    padding: 10px;
+}
