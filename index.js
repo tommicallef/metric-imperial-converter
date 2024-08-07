@@ -1,4 +1,4 @@
-const convertButton = document.getElementById("convert-btn")
+const convertButton = document.getElementById("classic-btn")
 const inputField = document.getElementById("input-field")
 
 const lengthEl = document.getElementById("length-conversion")
@@ -7,14 +7,18 @@ const massEl = document.getElementById("mass-conversion")
 
 let inputValue = inputField.value
 
-updateCalculations(inputValue)
+updateCalculations(20)
 
 convertButton.addEventListener("click", function() {
     
     // update inputValue
-    inputValue = inputField.value
+    if (inputField.value != '') {
+        inputValue = inputField.value
     
-    updateCalculations(inputValue)
+        updateCalculations(inputValue)
+    }
+    
+    
 })
 
 function updateLength(input) {
