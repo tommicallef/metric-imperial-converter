@@ -11,4 +11,4 @@ A simple and efficient tool for converting between metric and imperial units.
 
 ## 🚀 Live Demo
 
-[View the live demo here.](https://aesthetic-nougat-40ffc9.netlify.app/)
+[View the live demo here.](https://tommetric.netlify.app)
